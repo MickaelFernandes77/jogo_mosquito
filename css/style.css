@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    cursor: url('../imagens/mata_mosca.png') 30 30, auto;
+}
+
+body {
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    cursor: url('../imagens/mata_mosca.png') 30 30, auto;
+}
+
+
+/* tamanho do mosquito */
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 80px;
+    height: 80px;
+}
+
+.mosquito3 {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Fim tamanho do mosquito */
+
+
+/* lado do mosquito */
+
+
+/* lado padrão */
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+
+/* lado invertido */
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* alinhamento das paginas index, vitoria, e fim_de_jogo */
+
+.alinhamento {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgb(59, 57, 57);
+    border: none;
+    width: 150px;
+    height: 32px;
+    border-radius: 5px;
+    margin-left: 1%;
+    cursor: url('../imagens/mata_mosca.png') 30 30, auto;
+}
+
+#nivel {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
